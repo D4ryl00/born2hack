@@ -1929,7 +1929,7 @@
         // At start, show the help for 7 seconds.
         var helpDiv = document.getElementById( "impress-help" );
         if ( helpDiv ) {
-            helpDiv.style.display = "block";
+            helpDiv.style.display = "none";
             timeoutHandle = window.setTimeout( function() {
                 var helpDiv = document.getElementById( "impress-help" );
                 helpDiv.style.display = "none";
